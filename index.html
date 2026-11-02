@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="f1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F3EA">
+<title>Folheto Litúrgico — Culto Ecumênico da PMRR</title>
+<meta name="description" content="Folheto litúrgico digital do Culto Ecumênico da PMRR, ação de graças pelos 82 anos da Polícia Militar de Roraima. 03 de novembro de 2026, 08h30.">
+<meta property="og:title" content="Folheto Litúrgico — Culto Ecumênico da PMRR">
+<meta property="og:description" content="Ação de graças pelos 82 anos da Polícia Militar de Roraima. Terça-feira, 03 de novembro de 2026, 08h30.">
+<meta property="og:type" content="website">
+<style>
+*{-webkit-box-sizing:border-box;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;font-size:100%}
+html.f2{font-size:110%}
+html.f3{font-size:120%}
+body{
+ --papel:#F7F3EA;--card:#FCFAF4;--ouro:#C9A227;--ouro-claro:#E6C65A;--ouro-escuro:#9A7A1C;--metal:linear-gradient(135deg,#E6C65A 0%,#C9A227 45%,#A8841E 100%);--rub:#8A6A12;--ouro-t:#7A5C06;--azul:#1F3A4D;--txt:#26302E;--suave:#4C5754;
+ --o1:#6B7D4F;--o2:#93A26A;--fruto:#E6C65A;--haste:#6B7D4F;--btn-bg:#C9A227;--btn-fg:#1A1403;
+ --realce:rgba(201,162,39,.16);--veu:rgba(31,58,77,.55);--arco:#F2ECE7;--linha:rgba(201,162,39,.55);
+ margin:0;min-height:100vh;background-color:var(--papel);
+ background-image:-webkit-linear-gradient(top,rgba(255,255,255,.55),rgba(247,243,234,0) 40%),-webkit-linear-gradient(left,rgba(184,146,46,.05) 1px,rgba(0,0,0,0) 1px);
+ background-image:linear-gradient(180deg,rgba(255,255,255,.55),rgba(247,243,234,0) 40%),linear-gradient(90deg,rgba(184,146,46,.05) 1px,rgba(0,0,0,0) 1px);
+ background-size:100% 100%,1.6rem 100%;
+ color:var(--txt);font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:1.25rem;line-height:1.55;overflow-x:hidden;word-wrap:break-word}
+body.escuro{
+ --papel:#0F1F2B;--card:#16293A;--ouro:#E0C25E;--ouro-claro:#F0D878;--ouro-escuro:#C9A227;--metal:linear-gradient(135deg,#F3DC85 0%,#E0C25E 45%,#C9A227 100%);--rub:#E0C25E;--ouro-t:#E0C25E;--azul:#E9E0C4;--txt:#F1ECE0;--suave:#C4C0B2;
+ --o1:#8FA36A;--o2:#B0BF86;--fruto:#F0D878;--haste:#8FA36A;--btn-bg:#D4B45A;--btn-fg:#14100A;
+ --realce:rgba(212,180,90,.14);--veu:rgba(0,0,0,.6);--linha:rgba(212,180,90,.5);
+ background-image:none}
+.svgdefs{position:absolute;width:0;height:0;overflow:hidden}
+.o1{fill:var(--o1)}.o2{fill:var(--o2)}.fr{fill:var(--fruto)}
+.ha{fill:none;stroke:var(--haste);stroke-width:1;stroke-linecap:round}
+.linha{stroke:var(--ouro);stroke-width:1;fill:none}
+button{font-family:inherit}
+:focus{outline:none}
+html.kb :focus{outline:2px solid var(--ouro-t);outline-offset:2px}
+
+/* CAPA */
+.capa{position:relative;min-height:100vh;padding:0 22.4px;text-align:center;overflow:hidden;background:#FAF5EB url(img/capa_bg.jpg) center center/cover no-repeat;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-flex-direction:column;flex-direction:column}
+.capa-in{position:relative;z-index:2;max-width:416px;width:100%;margin:0 auto;padding:80px 0 56px;-webkit-box-flex:1;-webkit-flex:1 1 auto;flex:1 1 auto;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;justify-content:space-evenly;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+@media (min-width:360px){.capa-in{padding:105.6px 0}}
+.capa-in>*{margin-top:0;margin-bottom:0;max-width:100%}
+.sobre{font-size:13.6px;letter-spacing:.24em;position:relative;top:8px;text-transform:uppercase;color:var(--ouro-t);margin:4.8px 0 6.4px}
+.selo{width:40vh;max-width:240px;min-width:96px}
+@media (max-width:359px){.sobre{font-size:12px;letter-spacing:.16em}}
+@media (max-height:700px){.selo{width:23vh}.orn{display:none}.capa h1{font-size:25.6px}.capa-in{padding:52px 0 56px}}
+.selo img{display:block;width:100%;height:auto}
+.capa h1{font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:27.2px;line-height:1.15;color:var(--azul);margin:8px 0 0}
+.capa .sub{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:16.8px;line-height:1.3;color:var(--suave);margin:8px 0 0}
+.orn{display:block;width:128px;height:16px;margin:1.6px auto 9.6px}
+.qdata{font-size:15px;line-height:1.4;margin:0 0 1.6px;color:var(--txt)}
+.qdata strong{font-weight:600;color:var(--ouro-t)}
+.qloc{font-size:15px;line-height:1.4;color:var(--suave);margin:0 0 11.2px}
+.btn{display:inline-block;min-height:44px;line-height:1.2;padding:12px 32px;margin-bottom:12.8px;border:1px solid var(--ouro-t);border-radius:32px;background-color:var(--btn-bg);background-image:-webkit-linear-gradient(top,rgba(255,255,255,.35),rgba(255,255,255,0));background-image:linear-gradient(180deg,rgba(255,255,255,.35),rgba(255,255,255,0));color:var(--btn-fg);font-family:Georgia,"Times New Roman",serif;font-size:16.8px;letter-spacing:.06em;text-decoration:none;cursor:pointer;-webkit-appearance:none;appearance:none;-webkit-box-shadow:0 2.4px 8px rgba(122,92,6,.25);box-shadow:0 2.4px 8px rgba(122,92,6,.25)}
+.btn:active{opacity:.85}
+@media (max-width:480px) and (-webkit-max-device-pixel-ratio:1.5){.capa{background-image:url(img/capa_bg_720.jpg)}}
+.capa .sobre,.capa .qdata strong{color:#7A5C06}.capa h1{color:#1F3A4D}.capa .sub,.capa .qloc,.capa .qdata{color:#3d4a47}
+.entra{opacity:0;-webkit-transform:translateY(.8rem);transform:translateY(.8rem);-webkit-animation:entra .6s ease-out forwards;animation:entra .6s ease-out forwards}
+.entra.d1{-webkit-animation-delay:.1s;animation-delay:.1s}
+.entra.d2{-webkit-animation-delay:.25s;animation-delay:.25s}
+.entra.d3{-webkit-animation-delay:.4s;animation-delay:.4s}
+@-webkit-keyframes entra{to{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes entra{to{opacity:1;-webkit-transform:none;transform:none}}
+@media (prefers-reduced-motion:reduce){.entra{-webkit-animation:none;animation:none;opacity:1;-webkit-transform:none;transform:none}.barra{-webkit-transition:none;transition:none}}
+
+/* BARRA */
+.barra{position:fixed;top:0;left:0;right:0;z-index:50;height:56px;padding:0 6px 0 10px;background:var(--card);border-bottom:1px solid var(--ouro);display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-transform:translateY(-110%);transform:translateY(-110%);-webkit-transition:-webkit-transform .25s ease;transition:transform .25s ease;-webkit-box-shadow:0 2px 8px rgba(31,58,77,.12);box-shadow:0 2px 8px rgba(31,58,77,.12)}
+.barra.vis{-webkit-transform:none;transform:none}
+.barra img{width:32px;height:32px;object-fit:contain;margin-right:8px;display:block;-webkit-flex-shrink:0;flex-shrink:0}
+.barra .nome{-webkit-box-flex:1;-webkit-flex:1 1 0;flex:1 1 0;min-width:0;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:1.1;color:var(--azul);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.barra button{min-width:44px;height:44px;margin:0;padding:0 8px;border:0;border-left:1px solid var(--ouro);border-radius:0;background:transparent;color:var(--ouro-t);font-size:15px;font-weight:600;-webkit-flex-shrink:0;flex-shrink:0;cursor:pointer}
+.barra #bMenos{border-left:0}
+.barra button:active{background:var(--realce)}
+.barra #bInd{font-size:14px;padding:0 10px}
+@media (max-width:399px){.barra .nome{display:none}.barra img{margin-right:auto}}
+
+/* INDICE */
+.veu{position:fixed;top:0;left:0;right:0;bottom:0;z-index:60;background:var(--veu);display:none}
+.veu.aberto{display:block}
+.painel{position:absolute;top:62px;right:.5rem;left:.5rem;max-width:26rem;margin-left:auto;max-height:75vh;overflow-y:auto;-webkit-overflow-scrolling:touch;background:var(--card);border:1px solid var(--ouro);border-radius:.8rem;padding:.4rem .5rem .6rem;-webkit-box-shadow:0 .8rem 2rem rgba(0,0,0,.28);box-shadow:0 .8rem 2rem rgba(0,0,0,.28)}
+.painel .topo{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;padding:.2rem .4rem .3rem}
+.painel h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:1.15rem;color:var(--azul)}
+.painel .x{width:2.75rem;height:2.75rem;border:1px solid var(--ouro);border-radius:50%;background:transparent;color:var(--ouro-t);font-size:1.3rem;line-height:1;cursor:pointer;padding:0}
+.painel ol{list-style:none;margin:0;padding:0}
+.painel li a{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;min-height:2.75rem;padding:.35rem .5rem;border-top:1px solid var(--linha);color:var(--txt);text-decoration:none;font-size:1rem;line-height:1.25}
+.painel li a b{display:block;-webkit-flex-shrink:0;flex-shrink:0;width:1.9rem;height:1.9rem;line-height:1.75rem;margin-right:.7rem;text-align:center;border:1px solid var(--ouro);border-radius:50%;font-family:Georgia,serif;font-weight:normal;font-size:.9rem;color:var(--ouro-t)}
+.painel li a.atual{background:var(--realce);border-radius:.5rem}
+.painel li a.atual span{font-weight:600;color:var(--azul)}
+.painel li a.atual b{background:var(--ouro);color:var(--btn-fg)}
+
+/* CONTINUAR */
+.cont{position:fixed;top:0;left:0;right:0;z-index:70;padding:.6rem .8rem;background:var(--card);border-bottom:1px solid var(--ouro);-webkit-box-shadow:0 .4rem 1.2rem rgba(0,0,0,.2);box-shadow:0 .4rem 1.2rem rgba(0,0,0,.2);display:none;font-size:.95rem;line-height:1.3;text-align:center}
+.cont.vis{display:block}
+.cont p{margin:0 0 .4rem;color:var(--txt)}
+.cont button{min-height:2.75rem;padding:0 1rem;margin-right:.4rem;border:1px solid var(--ouro-t);border-radius:2rem;background:transparent;color:var(--ouro-t);font-size:.95rem;font-weight:600;cursor:pointer}
+.cont button.p{background:var(--btn-bg);color:var(--btn-fg)}
+
+/* CONVITE */
+main{max-width:42rem;margin:0 auto;padding:0 .9rem 1rem}
+.convite{padding:2.2rem .6rem 1rem;text-align:left}
+.convite h2{margin:0 0 .6rem;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ouro-t);text-align:left}
+.convite p{margin:0 0 1rem}
+.convite ul{list-style:none;margin:0;padding:0;font-size:1rem;line-height:1.5;color:var(--suave)}
+.convite li{margin:0 0 .4rem}
+.convite li strong{color:var(--ouro-t);font-weight:700}
+
+/* BLOCOS */
+.bloco{position:relative;background:var(--card);border:1px solid var(--ouro);border-radius:10px;padding:1.6rem 1.15rem 1.2rem;margin:0;-webkit-box-shadow:0 .2rem 1rem rgba(31,58,77,.07);box-shadow:0 .2rem 1rem rgba(31,58,77,.07)}
+.bloco:before{content:"";position:absolute;top:.3rem;left:.3rem;right:.3rem;bottom:.3rem;border:1px solid var(--linha);border-radius:7px;pointer-events:none}
+.bloco>*{position:relative}
+.cab{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;margin:0 0 .7rem}
+.med{-webkit-flex-shrink:0;flex-shrink:0;width:2.9rem;height:2.9rem;margin-right:.8rem;border:1px solid var(--ouro);border-radius:50%;background:var(--card);-webkit-box-shadow:0 0 0 .2rem var(--card),0 0 0 calc(.2rem + 1px) var(--linha);box-shadow:0 0 0 .2rem var(--card),0 0 0 calc(.2rem + 1px) var(--linha);display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;font-family:Georgia,"Times New Roman",serif;font-size:1.3rem;color:var(--ouro-t)}
+.bloco h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:1.6rem;line-height:1.18;color:var(--azul)}
+.rub{font-size:.9rem;letter-spacing:.1em;font-variant:small-caps;color:var(--ouro-t);font-weight:600;margin:0 0 .8rem}
+.ex{display:inline-block;margin-left:.5rem;padding:0 .5rem;border:1px solid var(--linha);border-radius:1rem;font-size:.85rem;letter-spacing:.06em;text-transform:lowercase;font-variant:normal;color:var(--suave);font-weight:normal;vertical-align:middle}
+.bloco p{margin:0 0 .9rem}
+.ind{font-style:italic;color:var(--suave);font-size:1rem}
+.letra{font-family:Georgia,"Times New Roman",serif;font-size:1.375rem;line-height:1.6;margin:0 0 1.2rem}
+.v{display:block;padding-left:1em;text-indent:-1em}
+body{--refbg:#F1E9D3}body.escuro{--refbg:rgba(212,180,90,.16)}
+.refrao{font-family:Georgia,"Times New Roman",serif;font-size:1.375rem;line-height:1.6;font-weight:normal;color:var(--azul);margin:0 0 1.2rem;padding:.8rem 1rem;background:var(--refbg);border-left:2px solid var(--ouro);border-radius:0 8px 8px 0}
+.refrao:before{content:attr(data-r);display:block;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:.85rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ouro-t);font-weight:600;margin-bottom:.25rem}
+.vers{font-family:Georgia,"Times New Roman",serif;font-size:1.3rem;line-height:1.6}
+.vers sup{font-family:-apple-system,Arial,sans-serif;font-size:.6em;font-weight:bold;color:var(--ouro-t);margin-right:.2rem}
+.todos{font-weight:600;color:var(--ouro-t)}
+.dest{margin:0 0 1rem;padding:1rem 1.1rem;border-top:1px solid var(--ouro);border-bottom:1px solid var(--ouro);text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:1.35rem;line-height:1.55;color:var(--azul);font-style:italic}
+.dest cite{display:block;margin-top:.5rem;font-style:normal;font-size:.85rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ouro-t);font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-weight:600}
+.tema{font-family:Georgia,"Times New Roman",serif;font-size:1.3rem;line-height:1.3;color:var(--azul);margin:0 0 .9rem}
+.louv{list-style:none;margin:0 0 .6rem;padding:0}
+.louv li{border-top:1px solid var(--linha);padding:.6rem 0}
+.louv li:last-child{border-bottom:1px solid var(--linha)}
+.louv .tit{font-family:Georgia,"Times New Roman",serif;font-size:1.2rem;line-height:1.3;color:var(--azul);margin:0 0 .3rem}
+.louv .tit i{font-style:normal;color:var(--ouro-t);margin-right:.5rem;font-size:1rem}
+details summary{min-height:2.75rem;line-height:1.3;padding:.45rem .2rem;font-size:.95rem;color:var(--ouro-t);font-weight:600;cursor:pointer}
+details p{font-size:1rem;color:var(--suave);margin:0 0 .4rem}
+.tg{display:block;min-height:2.75rem;margin:.2rem 0 .6rem;padding:.4rem 1.1rem;border:1px solid var(--ouro);border-radius:2rem;background:transparent;color:var(--ouro-t);font-size:.95rem;font-weight:600;cursor:pointer}
+.tg:active{background:var(--realce)}
+.lt.fechada{display:none}
+.lt .tema{margin-top:1rem}
+.pv{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;margin:1.1rem 0 0;padding-top:.8rem;border-top:1px solid var(--linha)}
+.pv button{min-height:2.75rem;padding:.4rem 1.1rem;border:1px solid var(--ouro);border-radius:2rem;background:transparent;color:var(--ouro-t);font-size:.95rem;font-weight:600;cursor:pointer}
+.pv button:active{background:var(--realce)}
+.pv .vz{visibility:hidden}
+.div{display:block;width:12rem;max-width:70%;height:1.6rem;margin:1.1rem auto}
+
+/* RODAPE */
+.rod{position:relative;text-align:center;padding:1.8rem 1rem 5.2rem;margin-top:1.4rem;border-top:1px solid var(--ouro);overflow:hidden}
+.rod .rm{position:absolute;bottom:.3rem;width:5rem;height:3rem;opacity:.85;overflow:visible}
+.rod .rm.e{left:.5rem}
+.rod .rm.d{right:.5rem;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.rod .lema{position:relative;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:1.4rem;color:var(--azul);margin:0 0 .3rem}
+.rod p{position:relative;margin:0 0 .3rem;font-size:1rem;color:var(--txt)}
+.rod .sp{font-size:.85rem;white-space:nowrap;letter-spacing:.2em;text-transform:uppercase;color:var(--ouro-t);font-weight:600}
+.rod .com{font-size:.9rem;color:var(--suave)}
+.prog{list-style:none;margin:0 0 1rem;padding:0}
+.prog li{padding:.35rem 0 .35rem .8rem;border-left:2px solid var(--ouro);margin:0 0 .4rem;font-size:1rem;line-height:1.5;color:var(--suave)}
+.prog li strong{color:var(--ouro-t);margin-right:.5rem}
+.rod .cmp{font-size:.85rem;line-height:1.45;margin-top:.8rem}
+@media (max-width:359px){.bloco{padding:1.4rem .9rem 1.1rem}.bloco h2{font-size:1.45rem}.capa{padding-left:21px;padding-right:21px}}
+
+.convite .un{border-top:1px solid var(--linha);padding-top:1rem}
+
+
+/* ACABAMENTO DOURADO */
+.capa .sobre{color:#7A5C06}
+.btn{background-color:#C9A227;background-image:-webkit-linear-gradient(315deg,#E6C65A 0%,#C9A227 45%,#A8841E 100%);background-image:linear-gradient(135deg,#E6C65A 0%,#C9A227 45%,#A8841E 100%);border-color:#9A7A1C;color:#1A1403;-webkit-box-shadow:0 2.4px 10px rgba(201,162,39,.4);box-shadow:0 2.4px 10px rgba(201,162,39,.4)}
+.cont button.p{background-image:-webkit-linear-gradient(315deg,#E6C65A 0%,#C9A227 45%,#A8841E 100%);background-image:linear-gradient(135deg,#E6C65A 0%,#C9A227 45%,#A8841E 100%);color:#1A1403}
+.selo{position:relative}
+.selo:before{content:"";position:absolute;left:-30%;right:-30%;top:-20%;bottom:-20%;background:-webkit-radial-gradient(center,ellipse,rgba(201,162,39,.22),rgba(201,162,39,0) 65%);background:radial-gradient(ellipse at center,rgba(201,162,39,.22),rgba(201,162,39,0) 65%);pointer-events:none}
+.selo img{position:relative}
+.med{background:var(--metal);color:#1A1403;border-color:var(--ouro)}
+.rub{color:var(--rub)}
+.refrao:before{color:#7A5C06}body.escuro .refrao:before{color:#E0C25E}
+.refrao{border-left:0;border-left:3px solid #C9A227;-webkit-border-image:-webkit-linear-gradient(top,#E6C65A,#C9A227 50%,#A8841E) 1;border-image:linear-gradient(180deg,#E6C65A,#C9A227 50%,#A8841E) 1;border-radius:0}
+body.escuro .refrao{-webkit-border-image:-webkit-linear-gradient(top,#F3DC85,#E0C25E 50%,#C9A227) 1;border-image:linear-gradient(180deg,#F3DC85,#E0C25E 50%,#C9A227) 1}
+.barra{border-bottom:0;background-image:-webkit-linear-gradient(left,#E6C65A,#C9A227 50%,#A8841E);background-image:linear-gradient(90deg,#E6C65A,#C9A227 50%,#A8841E);background-size:100% 2px;background-position:left bottom;background-repeat:no-repeat;background-color:var(--card)}
+.barra button{color:#7A5C06;border-left-color:#C9A227}
+body.escuro .barra button{color:#E0C25E;border-left-color:#E0C25E}
+.painel li a b{background:var(--metal);color:#1A1403;border-color:var(--ouro)}
+.painel li a.atual{background:rgba(201,162,39,.16)}
+.painel li a.atual b{background:var(--metal);color:#1A1403}
+.pv button{border-color:#C9A227;color:#7A5C06;background:-webkit-linear-gradient(top,var(--card),rgba(201,162,39,.08));background:linear-gradient(180deg,var(--card),rgba(201,162,39,.08))}
+body.escuro .pv button{color:#E0C25E;border-color:#E0C25E}
+.rod .lema{display:inline-block;padding:.35rem 1.2rem;border-top:3px double #C9A227;border-bottom:3px double #C9A227}
+
+/* V5 */
+.capa-vid{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;object-fit:cover;pointer-events:none;background:transparent}
+.divw{position:relative;max-width:26rem;margin:.6rem auto;text-align:center}
+.dvi{display:block;width:100%;height:auto;mix-blend-mode:multiply;-webkit-mask-image:-webkit-linear-gradient(left,rgba(0,0,0,0),#000 18%,#000 82%,rgba(0,0,0,0));mask-image:linear-gradient(90deg,rgba(0,0,0,0),#000 18%,#000 82%,rgba(0,0,0,0))}
+.divw .div{position:absolute;left:50%;top:50%;width:12rem;max-width:70%;height:1.6rem;margin:-.8rem 0 0 -6rem;-webkit-transform:translateX(0);}
+@media (max-width:359px){.divw .div{margin-left:-35%}}
+body.escuro .dvi{display:none}
+body.escuro .divw .div{position:static;margin:1.1rem auto}
+.vitral{display:block;width:calc(100% + 2.3rem);max-width:none;height:11rem;object-fit:cover;margin:-1.6rem -1.15rem 0;border:0;border-bottom:2px solid #C9A227;border-radius:9px 9px 0 0}
+.vitral+.cab{margin-top:0;border-radius:0}
+@media (max-width:359px){.vitral{width:calc(100% + 1.8rem);margin:-1.4rem -.9rem 0}}
+.cab{margin:-1.6rem -1.15rem .8rem;padding:.9rem 1rem;border-radius:9px 9px 0 0;background:#1F3A4D;background-image:-webkit-linear-gradient(315deg,#1F3A4D,#16304A);background-image:linear-gradient(135deg,#1F3A4D,#16304A);border-bottom:2px solid #C9A227}
+@media (max-width:359px){.cab{margin:-1.4rem -.9rem .8rem}}
+.cab .med{-webkit-box-shadow:0 0 0 2px rgba(230,198,90,.55);box-shadow:0 0 0 2px rgba(230,198,90,.55);border-color:#E6C65A}
+.bloco .cab h2{color:#F3E9C9;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+body.escuro .cab{background:#0B1A26;border-bottom-color:#E0C25E}
+body.escuro .bloco .cab h2{color:#E0C25E}
+.rod:before{content:"";position:absolute;left:0;right:0;bottom:0;height:5.5rem;background:url(img/div_oliva.jpg) center bottom/cover no-repeat;-webkit-transform:scaleX(-1);transform:scaleX(-1);mix-blend-mode:multiply;opacity:.8;pointer-events:none;-webkit-mask-image:-webkit-linear-gradient(top,rgba(0,0,0,0),#000 55%);mask-image:linear-gradient(180deg,rgba(0,0,0,0),#000 55%)}
+body.escuro .rod:before{display:none}
+.cg{position:relative;margin:1.2rem 0 .4rem;padding:1.2rem 1.15rem 1rem;background:var(--card);border:1px solid var(--ouro);border-radius:10px;-webkit-box-shadow:0 .2rem 1rem rgba(31,58,77,.07);box-shadow:0 .2rem 1rem rgba(31,58,77,.07)}
+.cg:before{content:"";position:absolute;top:.3rem;left:.3rem;right:.3rem;bottom:.3rem;border:1px solid var(--linha);border-radius:7px;pointer-events:none}
+.cg>*{position:relative}
+.cg-top{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+.cg-foto{-webkit-flex-shrink:0;flex-shrink:0;width:96px;height:96px;margin-right:1rem;border:2px solid #C9A227;border-radius:50%;background:-webkit-radial-gradient(center,circle,#FFFBEA,#F1E6C4);background:radial-gradient(circle at center,#FFFBEA,#F1E6C4);-webkit-box-shadow:0 0 0 4px var(--card),0 0 0 5px rgba(201,162,39,.55);box-shadow:0 0 0 4px var(--card),0 0 0 5px rgba(201,162,39,.55);display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;font-family:Georgia,"Times New Roman",serif;font-size:32px;letter-spacing:.04em;color:#9A7A1C}
+.cg-id{min-width:0}
+.cg h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:1.3rem;line-height:1.2;color:var(--azul)}
+.cg .cg-nome{margin:.3rem 0 0;font-size:.9rem;letter-spacing:.06em;font-variant:small-caps;font-weight:600;color:var(--rub);line-height:1.3}
+.cg-q{position:relative;margin:.9rem 0 0;padding:1.9rem .4rem .2rem 0}
+.cg-q:before{content:"\201C";position:absolute;top:-.2rem;left:-.1rem;font-family:Georgia,"Times New Roman",serif;font-size:4.2rem;line-height:1;color:#C9A227}
+.cg-q p{margin:0;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:1.25rem;line-height:1.5;color:var(--azul)}
+body.escuro .cg-foto{background:#16293A;color:#E0C25E}
+@media (prefers-reduced-motion:reduce){.capa-vid{display:none}}
+
+.pess{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;margin:0 0 .9rem}
+.pess .rub{margin:0 0 0 1rem;min-width:0}
+.foto{-webkit-flex-shrink:0;flex-shrink:0;display:block;width:96px;height:96px;object-fit:cover;border:2px solid #C9A227;border-radius:50%;background:#F1E6C4;-webkit-box-shadow:0 0 0 4px var(--card),0 0 0 5px rgba(201,162,39,.55);box-shadow:0 0 0 4px var(--card),0 0 0 5px rgba(201,162,39,.55)}
+.grupo{margin:.4rem 0 1.1rem;text-align:center;font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:1rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rub);line-height:1.2}
+.grupo span{display:inline-block;padding:0 .9rem .5rem;border-bottom:2px solid #C9A227;border-image:-webkit-linear-gradient(left,rgba(201,162,39,0),#C9A227 25%,#C9A227 75%,rgba(201,162,39,0)) 1;border-image:linear-gradient(90deg,rgba(201,162,39,0),#C9A227 25%,#C9A227 75%,rgba(201,162,39,0)) 1}
+.painel li.gr{padding:.7rem .5rem .2rem;font-family:Georgia,"Times New Roman",serif;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--rub);border-top:1px solid var(--linha)}
+.painel li.gr+li a{border-top:0}
+.cab .ex{color:#F3E9C9;border-color:rgba(243,233,201,.55);margin-left:.4rem;font-size:.75rem}
+</style>
+</head>
+<body>
+<svg class="svgdefs" aria-hidden="true" focusable="false"><defs>
+<symbol id="ramo" viewBox="0 0 200 120"><path class="ha" d="M6 8Q120 2 194 104"/><path class="ha" d="M70.8 14.1Q100.8 44.1 106.8 80.1"/><path class="ha" d="M124.8 37.4Q102.8 63.4 74.8 81.4"/><path class="o2" opacity=".5" transform="translate(37.1 8.4) rotate(-59.6)" d="M0 0C13.3 -4.4 32 -3.6 44.4 0C32 3.6 13.3 4.4 0 0Z"/><path class="o1" opacity=".5" transform="translate(70.8 14.1) rotate(82.4)" d="M0 0C14.2 -4.7 34 -3.8 47.2 0C34 3.8 14.2 4.7 0 0Z"/><path class="o2" opacity=".5" transform="translate(102.4 25.3) rotate(-42.2)" d="M0 0C14.1 -4.7 33.8 -3.8 46.9 0C33.8 3.8 14.1 4.7 0 0Z"/><path class="o1" opacity=".5" transform="translate(132 42.1) rotate(86.9)" d="M0 0C12.2 -4.1 29.2 -3.2 40.5 0C29.2 3.2 12.2 4.1 0 0Z"/><path class="o2" opacity=".5" transform="translate(159.5 64.3) rotate(-27.5)" d="M0 0C12.9 -4.3 31 -3.4 43.1 0C31 3.4 12.9 4.3 0 0Z"/><path class="o1" transform="translate(28.4 7.9) rotate(40.9)" d="M0 0C11.1 -3.7 26.8 -3 37.2 0C26.8 3 11.1 3.7 0 0Z"/><path class="o2" opacity=".7" transform="translate(45.7 9.3) rotate(-30.7)" d="M0 0C9.7 -3.2 23.4 -2.6 32.5 0C23.4 2.6 9.7 3.2 0 0Z"/><path class="o2" transform="translate(62.6 12.2) rotate(48.9)" d="M0 0C8.7 -2.9 20.8 -2.3 28.9 0C20.8 2.3 8.7 2.9 0 0Z"/><path class="o1" transform="translate(78.9 16.4) rotate(-19.3)" d="M0 0C10.3 -3.4 24.6 -2.7 34.2 0C24.6 2.7 10.3 3.4 0 0Z"/><path class="o2" opacity=".7" transform="translate(94.7 22) rotate(59.9)" d="M0 0C7.5 -2.5 18 -2 24.9 0C18 2 7.5 2.5 0 0Z"/><path class="o2" opacity=".7" transform="translate(110 29) rotate(-24.3)" d="M0 0C10.5 -3.5 25.2 -2.8 35 0C25.2 2.8 10.5 3.5 0 0Z"/><path class="o2" opacity=".7" transform="translate(124.8 37.4) rotate(82.9)" d="M0 0C8.9 -3 21.4 -2.4 29.7 0C21.4 2.4 8.9 3 0 0Z"/><path class="o2" transform="translate(139.1 47.1) rotate(-2.7)" d="M0 0C9.2 -3.1 22.1 -2.5 30.7 0C22.1 2.5 9.2 3.1 0 0Z"/><path class="o1" opacity=".7" transform="translate(152.8 58.3) rotate(76.4)" d="M0 0C8.1 -2.7 19.3 -2.1 26.8 0C19.3 2.1 8.1 2.7 0 0Z"/><path class="o2" opacity=".7" transform="translate(166.1 70.8) rotate(-0.7)" d="M0 0C7.7 -2.6 18.5 -2.1 25.7 0C18.5 2.1 7.7 2.6 0 0Z"/><path class="o1" transform="translate(178.8 84.7) rotate(92.1)" d="M0 0C7.7 -2.6 18.4 -2 25.6 0C18.4 2 7.7 2.6 0 0Z"/><path class="o2" transform="translate(191 102) rotate(54)" d="M0 0C10.2 -3.4 24.5 -2.7 34 0C24.5 2.7 10.2 3.4 0 0Z"/><path class="o1" opacity=".9" transform="translate(54.2 10.6) rotate(-20.7)" d="M0 0C6.7 -2.2 16.1 -1.8 22.4 0C16.1 1.8 6.7 2.2 0 0Z"/><path class="o2" opacity=".9" transform="translate(90.8 20.5) rotate(58.9)" d="M0 0C5.7 -1.9 13.8 -1.5 19.1 0C13.8 1.5 5.7 1.9 0 0Z"/><path class="o1" opacity=".9" transform="translate(124.8 37.4) rotate(-11.5)" d="M0 0C5.7 -1.9 13.6 -1.5 18.9 0C13.6 1.5 5.7 1.9 0 0Z"/><path class="o2" opacity=".9" transform="translate(152.8 58.3) rotate(80.2)" d="M0 0C7.6 -2.5 18.1 -2 25.2 0C18.1 2 7.6 2.5 0 0Z"/><path class="o1" opacity=".9" transform="translate(175.7 81.1) rotate(24.1)" d="M0 0C7.4 -2.5 17.8 -2 24.8 0C17.8 2 7.4 2.5 0 0Z"/><path class="o2" opacity=".7" transform="translate(86.6 32.7) rotate(87.2)" d="M0 0C6.8 -2.3 16.3 -1.8 22.7 0C16.3 1.8 6.8 2.3 0 0Z"/><path class="o2" opacity=".7" transform="translate(96.5 48.9) rotate(17.6)" d="M0 0C6 -2 14.4 -1.6 20 0C14.4 1.6 6 2 0 0Z"/><path class="o2" opacity=".7" transform="translate(103.4 66) rotate(111.1)" d="M0 0C7.4 -2.5 17.7 -2 24.6 0C17.7 2 7.4 2.5 0 0Z"/><path class="o1" opacity=".7" transform="translate(106.8 80.1) rotate(80.5)" d="M0 0C7.2 -2.4 17.3 -1.9 24 0C17.3 1.9 7.2 2.4 0 0Z"/><path class="o2" opacity=".7" transform="translate(111 52.3) rotate(180.7)" d="M0 0C7.2 -2.4 17.3 -1.9 24 0C17.3 1.9 7.2 2.4 0 0Z"/><path class="o2" opacity=".7" transform="translate(98.8 63.6) rotate(90.5)" d="M0 0C7.5 -2.5 18 -2 25 0C18 2 7.5 2.5 0 0Z"/><path class="o1" transform="translate(85.7 73.9) rotate(192.3)" d="M0 0C5.5 -1.8 13.1 -1.5 18.2 0C13.1 1.5 5.5 1.8 0 0Z"/><path class="o1" opacity=".7" transform="translate(74.8 81.4) rotate(147.3)" d="M0 0C7.2 -2.4 17.3 -1.9 24 0C17.3 1.9 7.2 2.4 0 0Z"/><path class="ha" d="M100.5 24.5L97.9 35.1"/><ellipse class="fr" transform="translate(97.9 35.1) rotate(103.9)" cx="4.2" cy="0" rx="5" ry="3.4"/><path class="ha" d="M146 52.5L154.5 45.6"/><ellipse class="fr" transform="translate(154.5 45.6) rotate(-39)" cx="4.2" cy="0" rx="5" ry="3.4"/><path class="ha" d="M170.9 75.8L165.6 84.3"/><ellipse class="fr" transform="translate(165.6 84.3) rotate(122)" cx="4.2" cy="0" rx="5" ry="3.4"/></symbol>
+<path id="fl" d="M0 0C5-5 16-5 22 0C16 5 5 5 0 0Z"/>
+</defs></svg>
+
+<header class="barra" id="barra">
+  <img src="img/brasao_400.png" alt="">
+  <div class="nome">Folheto Litúrgico</div>
+  <button type="button" id="bMenos" aria-label="Diminuir letra">A-</button><button type="button" id="bMais" aria-label="Aumentar letra">A+</button><button type="button" id="bTema" aria-label="Alternar modo claro e escuro">Tema</button><button type="button" id="bInd" aria-label="Abrir índice dos blocos">Índice</button>
+</header>
+
+<div class="veu" id="veu">
+  <nav class="painel" id="painel" aria-label="Índice do folheto">
+    <div class="topo"><h2>Índice</h2><button type="button" class="x" id="bFechar" aria-label="Fechar índice">&times;</button></div>
+    <ol id="lista">
+      <li class="gr">Formalidade</li>
+      <li><a href="#b1"><b>1</b><span>Chegada das autoridades</span></a></li>
+      <li><a href="#b2"><b>2</b><span>Finalidade</span></a></li>
+      <li><a href="#b3"><b>3</b><span>Honras militares</span></a></li>
+      <li class="gr">Cerimônia Religiosa</li>
+      <li><a href="#b4"><b>4</b><span>Oração inicial</span></a></li>
+      <li><a href="#b5"><b>5</b><span>Breve histórico da PMRR</span></a></li>
+      <li><a href="#b6"><b>6</b><span>Louvor</span></a></li>
+      <li><a href="#b7"><b>7</b><span>Mensagem do Pastor — Verdadeiros Defensores</span></a></li>
+      <li><a href="#b8"><b>8</b><span>Louvor da Banda da PMRR — Eu só quero adorar</span></a></li>
+      <li><a href="#b9"><b>9</b><span>Mensagem do Padre</span></a></li>
+      <li><a href="#b10"><b>10</b><span>Consagração dos utensílios castrenses</span></a></li>
+      <li class="gr">Ato Final</li>
+      <li><a href="#b11"><b>11</b><span>Fala da Comandante-Geral</span></a></li>
+      <li><a href="#b12"><b>12</b><span>Oração da PMRR</span></a></li>
+      <li><a href="#b13"><b>13</b><span>Canção da Polícia Militar de Roraima</span></a></li>
+      <li><a href="#b14"><b>14</b><span>Encerramento</span></a></li>
+    </ol>
+  </nav>
+</div>
+
+<div class="cont" id="cont" role="status">
+  <p>Continuar de onde parou?</p>
+  <button type="button" class="p" id="bCont">Continuar</button><button type="button" id="bDisp">Começar do início</button>
+</div>
+
+<section class="capa" id="inicio">
+  <video class="capa-vid" id="capaVid" autoplay muted loop playsinline webkit-playsinline poster="img/capa_bg.jpg" preload="metadata" aria-hidden="true"><source src="video/capa_loop.mp4" type="video/mp4"></video>
+  <div class="capa-in">
+    <p class="sobre entra">Folheto Litúrgico</p>
+    <div class="selo entra d1"><img src="img/selo_82anos.png" width="720" height="851" alt="Selo dos 82 anos da Polícia Militar de Roraima, Non nobis sed vobis"></div>
+    <h1 class="entra d2">Culto Ecumênico da&nbsp;PMRR</h1>
+    <p class="sub entra d2">Ação de graças pelos 82 anos</p>
+    <svg class="orn entra d2" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg>
+    <div class="entra d3">
+      <p class="qdata"><strong>Terça-feira, 03 de novembro de 2026</strong></p>
+      <p class="qloc">08h30 &middot; Templo da Faculdade Catedral</p>
+      <a class="btn" href="#convite" id="bAbrir">Abrir folheto</a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<section class="convite" id="convite">
+  <h2>Convite</h2>
+  <p>A Comandante-Geral da Polícia Militar de Roraima Cel Valdeane convida os policiais militares, servidores civis, familiares e amigos para participarem do Culto Ecumênico em ação de graças pelos 82 anos da Corporação.</p>
+  <p>Anfitriã: Comandante-Geral da PMRR, Cel QOC PM Valdeane Alves de Oliveira</p>
+  <p>03&nbsp;de&nbsp;novembro&nbsp;de&nbsp;2026 (terça-feira),&nbsp;08h30<br>Templo da Faculdade Catedral — Rua Waldner Jorge Ferreira da Silva, nº&nbsp;100 – Caçari, Boa Vista/RR.</p>
+  <div class="un"><h2>Programação</h2>
+  <ul class="prog">
+    <li><strong>08h00</strong> Recepção das autoridades</li>
+    <li><strong>08h30</strong> Início da solenidade</li>
+    <li><strong>10h00</strong> Encerramento</li>
+  </ul></div>
+  <div class="un"><h2>Uniforme</h2>
+  <ul>
+    <li><strong>Policiais militares de serviço:</strong> o de dotação da Unidade.</li>
+    <li><strong>Policiais militares de folga:</strong> traje à paisana (passeio).</li>
+    <li><strong>Convidados civis:</strong> passeio.</li>
+  </ul></div>
+</section>
+<section class="cg" id="cg">
+  <div class="cg-top"><div class="cg-foto" aria-hidden="true">CG</div><div class="cg-id"><h2>Palavra da Comandante-Geral</h2><p class="cg-nome">Cel QOC PM Valdeane Alves de Oliveira</p></div></div>
+  <blockquote class="cg-q"><p>Mensagem da Comandante-Geral (texto a inserir). <span class="ex">exemplo</span></p></blockquote>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<h3 class="grupo"><span>Formalidade</span></h3>
+
+<section class="bloco" id="b1">
+  <div class="cab"><span class="med">1</span><h2>Chegada das autoridades</h2></div>
+  <p class="rub">Mestre de cerimônias</p>
+  <p>Senhoras e senhores, bom dia!</p>
+  <p>Anunciamos a chegada a esta solenidade da Comandante-Geral da Polícia Militar de Roraima, Cel QOC PM Valdeane Alves de Oliveira, e do Subcomandante-Geral da PMRR, Cel QOC PM Igo Maiko Evangelista.</p>
+  <p>Registramos ainda a presença das demais autoridades presentes.</p>
+  <div class="pv"><button type="button" class="vz" tabindex="-1" aria-hidden="true">Anterior</button><button type="button" data-go="b2">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b2">
+  <div class="cab"><span class="med">2</span><h2>Finalidade</h2></div>
+  <p class="rub">Mestre de cerimônias</p>
+  <p>Em agradecimento a Deus, a Polícia Militar de Roraima reúne sua tropa, familiares, amigos e autoridades para, juntos, celebrar e louvar a Deus pelo octogésimo segundo aniversário da Instituição.</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;O Senhor é quem te guarda; o Senhor é a tua sombra à tua direita. O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.&rdquo;<cite>Salmo 121:5, 8</cite></blockquote>
+  <p>Sob as bênçãos do Deus Altíssimo e com a permissão da Comandante-Geral, Cel QOC PM Valdeane Alves de Oliveira, daremos início a este culto de comunhão.</p>
+  <p>Reunidos em um só espírito de comunhão e gratidão, celebramos neste momento o aniversário da PMRR, renovando os laços de fé, fraternidade e unidade da nossa Corporação. Policiais militares, familiares e convidados formam a grande família da Polícia Militar de Roraima, sustentada por valores sólidos que norteiam a nossa vida pessoal e o nosso dever profissional.</p>
+  <p>Agradecemos a Deus pela proteção divina concedida aos homens e mulheres que servem ao Estado de Roraima e buscamos neste culto a renovação da esperança e o fortalecimento do respeito mútuo. Confiantes na direção do Senhor, seguimos firmes em nossa missão, certos de que a união da nossa tropa e o amparo às nossas famílias mantêm a nossa instituição forte e abençoada.</p>
+  <div class="pv"><button type="button" data-go="b1">&larr; Anterior</button><button type="button" data-go="b3">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b3">
+  <div class="cab"><span class="med">3</span><h2>Honras militares</h2></div>
+  <p class="rub">Todos de pé</p>
+  <p class="ind">Serão prestadas as honras militares ao Grande Eterno Criador do Universo, o Senhor nosso Deus.</p>
+  <div class="pv"><button type="button" data-go="b2">&larr; Anterior</button><button type="button" data-go="b4">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<h3 class="grupo"><span>Cerimônia Religiosa</span></h3>
+
+<section class="bloco" id="b4">
+  <div class="cab"><span class="med">4</span><h2>Oração inicial</h2></div>
+  <p class="rub">2º Ten PM Enéas Farias Teodósio, pastor evangélico</p>
+  <p class="ind">Oração.</p>
+  <div class="pv"><button type="button" data-go="b3">&larr; Anterior</button><button type="button" data-go="b5">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b5">
+  <div class="cab"><span class="med">5</span><h2>Breve histórico da PMRR</h2></div>
+  <p class="rub">Vídeo institucional</p>
+  <p class="ind">Vídeo de inspiração de fé, reconstruindo fatos reais da Instituição.</p>
+  <div class="pv"><button type="button" data-go="b4">&larr; Anterior</button><button type="button" data-go="b6">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b6">
+  <div class="cab"><span class="med">6</span><h2>Louvor</h2></div>
+  <p class="rub">Pr. Felipe Pinel, Igreja Vida Church, com a Banda de Música da PMRR</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;Tudo quanto tem fôlego louve ao Senhor.&rdquo;<cite>Salmo 150:6</cite></blockquote>
+  <p class="rub">Repertório</p>
+  <ol class="louv">
+    <li><p class="tit"><i>1</i>Raridade / Tá chorando por quê <span class="ind">(medley)</span></p>
+    <button type="button" class="tg" data-tg="lt1" aria-controls="lt1" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt1">
+      <p class="tema">Raridade</p>
+      <p class="letra"><span class="v">Não consigo ir além do teu olhar</span><span class="v">Tudo o que eu consigo é imaginar</span><span class="v">A riqueza que existe dentro de você</span></p>
+      <p class="letra"><span class="v">O ouro eu consigo só admirar</span><span class="v">Mas te olhando eu posso a Deus adorar</span><span class="v">Sua alma é um bem que nunca envelhecerá</span></p>
+      <p class="letra"><span class="v">O pecado não consegue esconder</span><span class="v">A marca de Jesus que existe em você</span><span class="v">O que você fez ou deixou de fazer</span><span class="v">Não mudou o início, Deus escolheu você</span></p>
+      <p class="letra"><span class="v">Sua raridade não está naquilo que você possui</span><span class="v">Ou que sabe fazer</span><span class="v">Isso é mistério de Deus com você</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Você é um espelho</span><span class="v">Que reflete a imagem do Senhor</span><span class="v">Não chore se o mundo ainda não notou</span><span class="v">Já é o bastante Deus reconhecer o seu valor</span><span class="v">Você é precioso</span><span class="v">Mais raro que o ouro puro de Ofir</span><span class="v">Se você desistiu, Deus não vai desistir</span><span class="v">Ele está aqui pra te levantar se o mundo te fizer cair</span></p>
+      <p class="ind">Repete estrofes 2 a 4 e o refrão; refrão final 2x</p>
+      <p class="ind">Anderson Freire</p>
+      <p class="tema">Tá chorando por quê?</p>
+      <p class="letra"><span class="v">Tá chorando por quê?</span><span class="v">Se você tem um Deus</span><span class="v">Que cuida de você, oh, oh</span><span class="v">E jamais te esqueceu</span></p>
+      <p class="letra"><span class="v">Ele sabe de tudo</span><span class="v">Que você tá passando</span><span class="v">E mandou te dizer</span><span class="v">Que Ele está cuidando</span></p>
+      <p class="letra"><span class="v">Lembra de onde você veio</span><span class="v">E aonde que você chegou</span><span class="v">Lembra de todos os livramentos</span><span class="v">Que você já passou</span></p>
+      <p class="letra"><span class="v">Nem era pra você tá aqui</span><span class="v">Mas Deus falou assim</span><span class="v">Esse aí, vou levantar</span><span class="v">E onde colocar a mão, Eu vou abençoar</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Não chore</span><span class="v">Quem cuida de você não dorme</span><span class="v">Levanta</span><span class="v">Tem muita gente que te ama</span><span class="v">Deus mandou te dizer, que vai acontecer</span><span class="v">Deus mandou te falar, que tudo vai passar</span></p>
+      <p class="ind">Repete estrofes 3 e 4 e o refrão; refrão final 2x, terminando em "Que tudo vai passar"</p>
+      <p class="ind">Preto no Branco</p>
+      <button type="button" class="tg" data-tg="lt1" aria-controls="lt1" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+    <li><p class="tit"><i>2</i>Com muito louvor</p>
+    <button type="button" class="tg" data-tg="lt2" aria-controls="lt2" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt2">
+      <p class="letra"><span class="v">Deus não rejeita oração</span><span class="v">Oração é alimento</span><span class="v">Nunca vi um justo sem resposta</span><span class="v">Ou ficar no sofrimento</span></p>
+      <p class="letra"><span class="v">Basta somente esperar</span><span class="v">O que Deus irá fazer</span><span class="v">Quando Ele estende suas mãos</span><span class="v">É a hora de vencer</span></p>
+      <p class="letra"><span class="v">Então louve, simplesmente louve</span><span class="v">Tá chorando, louve</span><span class="v">Precisando, louve</span><span class="v">Tá sofrendo, louve</span><span class="v">Não importa, louve</span><span class="v">Teu louvor invade o céu</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Deus vai na frente, abrindo caminho</span><span class="v">Quebrando as correntes, tirando os espinhos</span><span class="v">Ordena aos anjos pra contigo lutar</span><span class="v">Ele abre as portas pra ninguém mais fechar</span><span class="v">Ele trabalha pra o que nele confia</span><span class="v">Caminha contigo de noite ou de dia</span><span class="v">Erga suas mãos, sua bênção chegou</span><span class="v">Comece a cantar com muito louvor</span><span class="v">Com muito louvor, com muito louvor</span><span class="v">Com muito louvor</span></p>
+      <p class="letra"><span class="v">A gente precisa entender</span><span class="v">O que Deus está falando</span><span class="v">Quando Ele fica em silêncio</span><span class="v">É porque está trabalhando</span></p>
+      <p class="ind">Repete estrofe 2, pré-refrão e refrão.</p>
+      <p class="letra"><span class="v">Com muito louvor, com muito louvor</span><span class="v">Com muito louvor, com muito louvor</span><span class="v">Com muito louvor, com muito louvor</span><span class="v">Com muito louvor, com muito louvor</span><span class="v">Com muito louvor, com muito louvor</span></p>
+      <p class="letra"><span class="v">Com muito louvor adore ao Senhor</span><span class="v">Com muito louvor exalte ao Senhor</span><span class="v">Com muito louvor cante ao Senhor</span><span class="v">Com muito louvor</span></p>
+      <button type="button" class="tg" data-tg="lt2" aria-controls="lt2" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+    <li><p class="tit"><i>3</i>Noites traiçoeiras</p>
+    <button type="button" class="tg" data-tg="lt3" aria-controls="lt3" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt3">
+      <p class="letra"><span class="v">Deus está aqui neste momento</span><span class="v">Sua presença é real em meu viver</span><span class="v">Entregue sua vida e seus problemas</span><span class="v">Fale com Deus, Ele vai ajudar você</span></p>
+      <p class="letra"><span class="v">Oh, oh, Deus te trouxe aqui</span><span class="v">Para aliviar os teus sofrimentos</span><span class="v">Oh, oh, é Ele o autor da Fé</span><span class="v">Do princípio ao fim</span><span class="v">Em todos os teus tormentos</span></p>
+      <p class="refrao" data-r="Refrão (2x)"><span class="v">E ainda se vier noite traiçoeira</span><span class="v">Se a cruz pesada for, Cristo estará contigo</span><span class="v">E o mundo pode até fazer você chorar</span><span class="v">Mas Deus te quer sorrindo</span></p>
+      <p class="letra"><span class="v">Seja qual for o seu problema</span><span class="v">Fale com Deus, Ele vai ajudar você</span><span class="v">Após a dor vem a alegria</span><span class="v">Pois Deus é amor e não te deixará sofrer</span></p>
+      <p class="ind">Pré-refrão e Refrão 2x; termina em "Mas Deus te quer sorrindo" repetido</p>
+      <p class="ind">Padre Marcelo Rossi</p>
+      <button type="button" class="tg" data-tg="lt3" aria-controls="lt3" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+    <li><p class="tit"><i>4</i>Em teus braços</p>
+    <button type="button" class="tg" data-tg="lt4" aria-controls="lt4" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt4">
+      <p class="letra"><span class="v">Seguro estou nos braços</span><span class="v">Daquele que nunca me deixou</span><span class="v">Seu amor perfeito sempre esteve repousado em mim</span></p>
+      <p class="letra"><span class="v">E se eu passar pelo vale</span><span class="v">Acharei conforto em Teu amor</span><span class="v">Pois eu sei que és aquele que me guarda</span><span class="v">Me guardas</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Em Teus braços é meu descanso</span><span class="v">Em Teus braços é meu descanso</span><span class="v">Em Teus braços é meu descanso</span><span class="v">Em Teus braços é meu descanso</span></p>
+      <p class="ind">Repete estrofes 1 e 2 e o refrão 2x</p>
+      <p class="letra"><span class="v">Recaio em Tua graça</span><span class="v">Recaio de novo em Tuas mãos</span><span class="v">Recaio em Tua graça</span><span class="v">Recaio de novo em Tuas mãos</span></p>
+      <p class="ind">Repete.</p>
+      <p class="ind">Estrofe 2 e refrão: "Em Teus braços é meu lugar seguro, meu escudo"</p>
+      <p class="letra"><span class="v">O toque mais puro</span><span class="v">O amor mais seguro do mundo</span><span class="v">O toque mais puro</span><span class="v">O amor mais seguro do mundo é o Teu, Jesus</span></p>
+      <p class="ind">Repete.</p>
+      <p class="letra"><span class="v">O toque mais puro</span><span class="v">O amor mais seguro do mundo</span><span class="v">É do meu Abba</span><span class="v">É do meu Abba</span></p>
+      <p class="ind">Laura Souguellis</p>
+      <button type="button" class="tg" data-tg="lt4" aria-controls="lt4" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+    <li><p class="tit"><i>5</i>Escudo / Sou um milagre <span class="ind">(medley)</span></p>
+    <button type="button" class="tg" data-tg="lt5" aria-controls="lt5" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt5">
+      <p class="tema">Escudo</p>
+      <p class="letra"><span class="v">Por toda a minha vida</span><span class="v">Oh Senhor, Te louvarei</span><span class="v">Pois meu fôlego é a Tua vida</span><span class="v">E nunca me cansarei</span></p>
+      <p class="letra"><span class="v">Posso ouvir a Tua voz</span><span class="v">É mais doce do que o mel</span><span class="v">Que me tira desta cova</span><span class="v">E me leva até o céu</span></p>
+      <p class="letra"><span class="v">Já vi fogo e terremotos</span><span class="v">Vento forte que passou</span><span class="v">Já vivi tantos perigos</span><span class="v">Mas Tua voz me acalmou</span></p>
+      <p class="letra"><span class="v">Tu dás ordem às estrelas</span><span class="v">E ao mar, os seus limites</span><span class="v">Eu me sinto tão seguro</span><span class="v">No teu colo, oh, Altíssimo</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Não há ferrolhos</span><span class="v">Nem portas que se fechem diante da Tua voz</span><span class="v">Não há doenças, nem culpa</span><span class="v">Que fiquem de pé diante de nós</span><span class="v">E a tempestade se acalma</span><span class="v">Na voz daquele que tudo criou</span><span class="v">Pois Tua palavra é pura</span><span class="v">Escudo para os que n'Ele creem</span></p>
+      <p class="tema">Sou um Milagre</p>
+      <p class="refrao" data-r="Refrão"><span class="v">Espírito, Espírito</span><span class="v">Que desce como fogo</span><span class="v">Vem como em Pentecostes</span><span class="v">E enche-me de novo</span></p>
+      <p class="letra"><span class="v">Eu navegarei</span><span class="v">No oceano do Espírito</span><span class="v">E ali adorarei</span><span class="v">Ao Deus do meu amor</span></p>
+      <p class="letra"><span class="v">Eu adorarei</span><span class="v">Ao Deus da minha vida</span><span class="v">Que me compreendeu</span><span class="v">Sem nenhuma explicação</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Espírito, Espírito</span><span class="v">Que desce como fogo</span><span class="v">Vem como em Pentecostes</span><span class="v">E enche-me de novo</span></p>
+      <p class="letra"><span class="v">Enche-me</span><span class="v">Até transbordar</span><span class="v">Derrama a Sua glória</span><span class="v">Derrama a Sua glória</span><span class="v">Enche-me, Deus</span><span class="v">Enche-me, Deus</span><span class="v">Enche-me, Deus</span><span class="v">Enche-me</span></p>
+      <p class="letra"><span class="v">Então vem me incendiar</span><span class="v">Meu coração é Teu altar</span><span class="v">Quero ouvir o som do céu</span><span class="v">Tua Glória contemplar</span><span class="v">Te damos honra</span><span class="v">Te damos glória</span><span class="v">Teu é o poder</span><span class="v">Pra sempre, amém</span><span class="v">Então vem me incendiar</span><span class="v">Meu coração é Teu altar</span><span class="v">Quero ouvir o som do céu</span><span class="v">Tua Glória contemplar</span></p>
+      <p class="ind">Voz da Verdade</p>
+      <button type="button" class="tg" data-tg="lt5" aria-controls="lt5" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+    <li><p class="tit"><i>6</i>Jó / Não pare <span class="ind">(medley)</span></p>
+    <button type="button" class="tg" data-tg="lt6" aria-controls="lt6" aria-expanded="false">Mostrar letra</button>
+    <div class="lt fechada" id="lt6">
+      <p class="tema">Jó</p>
+      <p class="letra"><span class="v">Jó, como pode ainda adorar</span><span class="v">Se não tem motivos pra cantar?</span><span class="v">Abandona esse Deus e morre</span></p>
+      <p class="letra"><span class="v">Mas não o adoro pelo que Ele faz</span><span class="v">Nem menos por bens materiais</span><span class="v">Eu o adoro pelo que Ele é</span><span class="v">Eu sou d'Ele, tudo é d'Ele</span></p>
+      <p class="letra"><span class="v">Jó, você não tem motivos</span><span class="v">Perdeu os seus bens, seus filhos, seus amigos</span><span class="v">O que você vai fazer?</span></p>
+      <p class="letra"><span class="v">Eu vou adorar, simplesmente adorar</span><span class="v">Eu vou adorar</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Deus me deu, Deus tomou</span><span class="v">Bendito seja o nome do Senhor!</span><span class="v">A Ele a glória, a Ele a honra e o louvor</span></p>
+      <p class="ind">Repete estrofes 1 a 3, pré-refrão e refrão</p>
+      <p class="letra"><span class="v">A Ele a glória</span><span class="v">A Ele a glória</span><span class="v">A Ele a glória</span><span class="v">A Ele a glória</span><span class="v">A Ele a glória (oh, a Ele a glória)</span><span class="v">A Ele a glória (Ele merece toda a glória)</span><span class="v">A Ele a glória</span><span class="v">Pra sempre, amém</span><span class="v">Amém!</span></p>
+      <p class="refrao" data-r="Refrão final (2x)"><span class="v">Deus me deu, Deus tomou</span><span class="v">Bendito seja o nome do Senhor!</span><span class="v">A Ele a glória, a Ele a honra e o louvor</span><span class="v">A Ele seja dado o louvor</span><span class="v">Te damos todo o louvor, Senhor!</span></p>
+      <p class="ind">Composição: Delino Marçal · Intérprete: Midian Lima</p>
+      <p class="tema">Não pare</p>
+      <p class="letra"><span class="v">Amanheceu</span><span class="v">Nada pesquei</span><span class="v">Parecia ser apenas mais um dia</span><span class="v">Como qualquer outro</span></p>
+      <p class="letra"><span class="v">Estava cansado</span><span class="v">Sem forças, desanimado</span><span class="v">Decidida a largar tudo e parar</span></p>
+      <p class="letra"><span class="v">Deus conhece tua estrutura</span><span class="v">Sabe o que está fazendo</span><span class="v">Mesmo que seja difícil</span><span class="v">Não pares, Ele está vendo</span></p>
+      <p class="letra"><span class="v">Colheu todas tuas lágrimas</span><span class="v">E mandou a ti falar</span><span class="v">Pegue o que Ele te entregou</span><span class="v">E volte para o mar que é o teu lugar</span></p>
+      <p class="refrao" data-r="Refrão"><span class="v">Quem mandou largar a rede?</span><span class="v">Quem mandou você parar?</span><span class="v">Volte para o mar alto</span><span class="v">No lugar da tua vergonha, Eu vou te honrar</span></p>
+      <p class="ind">Repete, terminando em: Filho, Eu vou te honrar.</p>
+      <p class="ind">Repete estrofes 3 e 4 e o refrão 2x</p>
+      <p class="letra"><span class="v">Ó, filho, a noite já passou</span><span class="v">A tua hora chegou</span><span class="v">Pegue a tua rede e volte para o mar</span><span class="v">Vou te esperar no mar</span></p>
+      <p class="letra"><span class="v">Não é hora de parar</span><span class="v">Deus contemplou teu caminhar</span><span class="v">Eu sei, é difícil prosseguir</span></p>
+      <p class="letra"><span class="v">Quando tudo lhe faltar</span><span class="v">Esse cenário vai mudar</span><span class="v">A tua hora chegará</span><span class="v">Há um tempo pra tudo</span></p>
+      <p class="refrao" data-r="Refrão final (2x)"><span class="v">Quem mandou largar a rede?</span><span class="v">Quem mandou você parar?</span><span class="v">Volte para o mar alto</span><span class="v">No lugar da tua vergonha, Eu vou te honrar</span></p>
+      <p class="ind">Repete, terminando em: Filho, Eu vou te honrar.</p>
+      <p class="ind">Composição: Priscila de Paula · Intérprete: Midian Lima</p>
+      <button type="button" class="tg" data-tg="lt6" aria-controls="lt6" aria-expanded="true">Ocultar letra</button>
+    </div></li>
+  </ol>
+  <div class="pv"><button type="button" data-go="b5">&larr; Anterior</button><button type="button" data-go="b7">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b7">
+  <img class="vitral" src="img/vitral.jpg" width="1080" height="608" alt="Vitral iluminado, vela e Bíblia aberta sobre o altar" loading="lazy">
+  <div class="cab"><span class="med">7</span><h2>Mensagem do Pastor — Verdadeiros Defensores</h2></div>
+  <div class="pess"><img class="foto" src="img/pr_emival.jpg" width="240" height="240" alt="Pr. Emival Silva" loading="lazy"><p class="rub">Pr. Emival Silva, Igreja Verbo da Vida</p></div>
+  <p class="ind">Versículo de abertura: &ldquo;Bem-aventurados os que ouvem a Palavra de Deus e a guardam.&rdquo; (Lucas 11:28)</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;Acampar-me-ei ao redor da minha casa para defendê-la contra forças militantes, para que ninguém passe, nem volte; que não passe mais sobre eles o opressor; porque, agora, vejo isso com os meus olhos.&rdquo;<cite>Zacarias 9:8</cite></blockquote>
+  <div class="pv"><button type="button" data-go="b6">&larr; Anterior</button><button type="button" data-go="b8">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b8">
+  <div class="cab"><span class="med">8</span><h2>Louvor da Banda da PMRR — Eu só quero adorar</h2></div>
+  <p class="rub">Todos acompanham</p>
+  <p class="letra"><span class="v">Eu não sei o que Ele viu em mim</span><span class="v">Não entendo por que me amou</span><span class="v">Eu não sou o que devia ser</span><span class="v">Mesmo assim, Ele me abraçou</span></p>
+  <p class="letra"><span class="v">Sou pequeno, Ele, tão grande é</span><span class="v">Eu sou falho, Ele é fiel</span><span class="v">O que eu merecia era morrer</span><span class="v">Mas Ele me prometeu o céu</span></p>
+  <p class="refrao" data-r="Refrão"><span class="v">Eu só quero adorar, por isso estou aqui</span><span class="v">E se eu não adorar, falta algo em mim</span><span class="v">Eu jamais saberei por que me escolheu</span><span class="v">Mas de uma coisa eu sei</span><span class="v">Tudo que eu tenho Ele me deu</span></p>
+  <p class="ind">Repetem-se as duas estrofes e o refrão.</p>
+  <p class="refrao" data-r="Refrão final"><span class="v">Eu só quero adorar, por isso estou aqui</span><span class="v">E se eu não adorar, falta algo em mim</span><span class="v">Eu jamais saberei por que me escolheu</span><span class="v">Mas de uma coisa eu sei</span><span class="v">Tudo que eu tenho Ele me deu</span><span class="v">Tudo que eu tenho Ele me deu</span><span class="v">Tudo que eu tenho Ele me deu</span></p>
+  <div class="pv"><button type="button" data-go="b7">&larr; Anterior</button><button type="button" data-go="b9">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b9">
+  <div class="cab"><span class="med">9</span><h2>Mensagem do Padre</h2></div>
+  <div class="pess"><img class="foto" src="img/padre_luiz.jpg" width="240" height="240" alt="Padre Luiz Henrique Pereira Júnior" loading="lazy"><p class="rub">2º Ten Capelão do Exército Brasileiro, Padre Luiz Henrique Pereira Júnior</p></div>
+  <p class="ind">1ª Brigada de Infantaria de Selva (Brigada Lobo D&rsquo;Almada).</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;Lâmpada para os meus pés é tua palavra, e luz para o meu caminho.&rdquo;<cite>Salmo 119:105</cite></blockquote>
+  <div class="pv"><button type="button" data-go="b8">&larr; Anterior</button><button type="button" data-go="b10">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b10">
+  <div class="cab"><span class="med">10</span><h2>Consagração dos utensílios castrenses</h2></div>
+  <p class="rub">Padre Luiz Henrique, Pr. Emival Silva e autoridades eclesiásticas</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;E trouxe para a Casa de Deus as coisas consagradas por seu pai e as coisas que ele mesmo tinha consagrado: ouro, prata e utensílios. E não houve guerra.&rdquo;<cite>II Crônicas 15:18-19</cite></blockquote>
+  <p class="ind">Entrada dos símbolos castrenses da PMRR.</p>
+  <div class="pv"><button type="button" data-go="b9">&larr; Anterior</button><button type="button" data-go="b11">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<h3 class="grupo"><span>Ato Final</span></h3>
+
+<section class="bloco" id="b11">
+  <div class="cab"><span class="med">11</span><h2>Fala da Comandante-Geral</h2></div>
+  <p class="rub">Cel QOC PM Valdeane Alves de Oliveira</p>
+  <p class="ind">Neste momento, a Comandante-Geral faz uso da palavra.</p>
+  <div class="pv"><button type="button" data-go="b10">&larr; Anterior</button><button type="button" data-go="b12">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b12">
+  <div class="cab"><span class="med">12</span><h2>Oração da PMRR</h2></div>
+  <p class="rub">Subcomandante-Geral da PMRR, Cel QOC PM Igo Maiko Evangelista</p>
+  <p>Senhor, vós sabeis quão árdua é a minha missão, e quase sempre incompreendida pelos homens.</p>
+  <p>É triste, Senhor, arriscar a minha vida e não ser reconhecido, e algumas vezes criticado ou injuriado.</p>
+  <p>É triste, Senhor, despedir-me do lar e não ter a certeza de a ele retornar.</p>
+  <p>Mas é consolador, Senhor, o sentimento do dever cumprido e a certeza de que minha figura anônima evitou um crime ou salvou uma vida.</p>
+  <p>Dai-me, Senhor, a vossa graça para que possa honrar a minha farda e renovar diariamente perante vós o juramento de defender a sociedade mesmo com o risco da própria vida.<br><span class="todos">Todos:</span> Amém.</p>
+  <div class="pv"><button type="button" data-go="b11">&larr; Anterior</button><button type="button" data-go="b13">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b13">
+  <div class="cab"><span class="med">13</span><h2>Canção da Polícia Militar de Roraima</h2></div>
+  <p class="rub">Todos cantam, com a Banda de Música da PMRR</p>
+  <p class="letra"><span class="v">Guardiã na vanguarda brasileira</span><span class="v">Estás no podium em Pacaraima,</span><span class="v">Do nosso Brasil a mais bela,</span><span class="v">Polícia Militar de Roraima.</span></p>
+  <p class="letra"><span class="v">Às margens do Rio Branco,</span><span class="v">Um povo leal descansa,</span><span class="v">Tens patrulhas a simbolizar,</span><span class="v">Tua presença da segurança.</span></p>
+  <p class="refrao" data-r="Refrão"><span class="v">Da ordem pública serás eterna escola,</span><span class="v">Com esplendor e civismo varonil,</span><span class="v">Nossa farda é o orgulho que vestimos,</span><span class="v">Força nobre a serviço do Brasil.</span></p>
+  <p class="letra"><span class="v">Tua bandeira será sempre hasteada,</span><span class="v">Mesmo longe sem temer.</span><span class="v">Tua missão é ancestral,</span><span class="v">És oriunda da Guarda Territorial.</span></p>
+  <p class="letra"><span class="v">Do Forte São Joaquim,</span><span class="v">Têm origem tuas medalhas.</span><span class="v">Na paz ou na guerra sempre temos,</span><span class="v">Dia a dia uma batalha.</span></p>
+  <p class="refrao" data-r="Refrão"><span class="v">Da ordem pública serás eterna escola,</span><span class="v">Com esplendor e civismo varonil,</span><span class="v">Nossa farda é o orgulho que vestimos,</span><span class="v">Força nobre a serviço do Brasil.</span></p>
+  <p class="ind">Letra: 3º Sgt PM Antônio Varlindo Lima dos Reis</p>
+  <div class="pv"><button type="button" data-go="b12">&larr; Anterior</button><button type="button" data-go="b14">Próximo &rarr;</button></div>
+</section>
+
+<div class="divw"><img class="dvi" src="img/div_oliva.jpg" width="1080" height="144" alt=""><svg class="div" viewBox="0 0 240 24" aria-hidden="true" focusable="false"><path class="linha" d="M4 12H96M144 12H236"/><g class="o1"><use xlink:href="#fl" transform="translate(120 12) rotate(-28)"/></g><g class="o2"><use xlink:href="#fl" transform="translate(120 12) rotate(208)"/></g><circle cx="120" cy="12" r="2.6" fill="#E6C65A"/><circle cx="100" cy="12" r="1.6" fill="#C9A227"/><circle cx="140" cy="12" r="1.6" fill="#C9A227"/></svg></div>
+
+<section class="bloco" id="b14">
+  <div class="cab"><span class="med">14</span><h2>Encerramento</h2></div>
+  <p class="rub">Mestre de cerimônias</p>
+  <p>Encerrando este culto solene alusivo ao aniversário da PMRR, a Comandante-Geral da Polícia Militar, Cel QOC PM Valdeane Alves de Oliveira, agradece a presença de todos e convida as autoridades e convidados para tirarmos a foto oficial e, em seguida, degustar o buffet matinal, que será servido na lateral.</p>
+  <blockquote class="dest" style="margin-left:0;margin-right:0">&ldquo;Que o Senhor nosso Deus abençoe e proteja a todos.&rdquo;</blockquote>
+  <div class="pv"><button type="button" data-go="b13">&larr; Anterior</button><button type="button" data-go="inicio">Voltar ao início</button></div>
+</section>
+</main>
+
+<footer class="rod">
+  <svg class="rm e" viewBox="0 0 200 120" aria-hidden="true" focusable="false"><use xlink:href="#ramo" width="200" height="120"/></svg>
+  <svg class="rm d" viewBox="0 0 200 120" aria-hidden="true" focusable="false"><use xlink:href="#ramo" width="200" height="120"/></svg>
+  <p class="lema">&ldquo;Non nobis sed vobis&rdquo;</p>
+  <p>Polícia Militar de Roraima</p>
+  <p class="sp">Servir e Proteger</p>
+  <p class="com cmp">Comissão Organizadora — Portaria nº 1176/PMRR/QCG/SUBCMDOGERAL/CERIMONI: Cel PM Vilson Carlos Pereira de Araujo (presidente); TC PM Brunno Almeida Nascimento; Cap PM Jackson Janio Vidal de Lima; 2º Ten PM Eneas Farias Teodosio; Sd PM Jhonatan Dias Alves.</p>
+  <p class="com">Diretoria de Comunicação Social (a definir)</p>
+</footer>
+
+<script>
+(function(){
+  try{history.scrollRestoration='manual';}catch(e){}
+  document.addEventListener('keydown',function(ev){if(ev.keyCode===9){document.documentElement.classList.add('kb');}},false);
+  document.addEventListener('mousedown',function(){document.documentElement.classList.remove('kb');},false);
+  document.addEventListener('touchstart',function(){document.documentElement.classList.remove('kb');},false);
+  var html=document.documentElement,body=document.body;
+  function guardar(k,v){try{window.localStorage.setItem(k,v);}catch(e){}}
+  function ler(k){try{return window.localStorage.getItem(k);}catch(e){return null;}}
+  function tirar(k){try{window.localStorage.removeItem(k);}catch(e){}}
+  function $(id){return document.getElementById(id);}
+  var nivel=parseInt(ler('folheto_fonte'),10);
+  if(!(nivel>=1&&nivel<=3)){nivel=1;}
+  var escuro=(ler('folheto_tema')==='escuro');
+  function aplica(){
+    html.className=(html.className.indexOf('kb')>-1?'kb ':'')+'f'+nivel;
+    body.className=escuro?'escuro':'';
+    var m=document.querySelector('meta[name="theme-color"]');
+    if(m){m.setAttribute('content',escuro?'#0F1F2B':'#F7F3EA');}
+  }
+  aplica();
+  $('bMais').onclick=function(){if(nivel<3){nivel++;aplica();guardar('folheto_fonte',String(nivel));}};
+  $('bMenos').onclick=function(){if(nivel>1){nivel--;aplica();guardar('folheto_fonte',String(nivel));}};
+  $('bTema').onclick=function(){escuro=!escuro;aplica();guardar('folheto_tema',escuro?'escuro':'claro');};
+
+  var barra=$('barra'),capa=$('inicio');
+  function y0(){return window.pageYOffset||document.documentElement.scrollTop||0;}
+  function rolarPara(y){
+    if(y<0){y=0;}
+    try{window.scrollTo({top:y,behavior:'smooth'});}catch(e){window.scrollTo(0,y);}
+  }
+  function irPara(id){
+    var alvo=$(id);
+    if(!alvo){return;}
+    if(id==='inicio'){rolarPara(0);return;}
+    var h=barra.getBoundingClientRect().height||56;
+    rolarPara(alvo.getBoundingClientRect().top+y0()-h-8);
+  }
+
+  var veu=$('veu');
+  function abrirInd(){veu.className='veu aberto';}
+  function fecharInd(){veu.className='veu';}
+  $('bInd').onclick=abrirInd;
+  $('bFechar').onclick=fecharInd;
+  veu.addEventListener('click',function(ev){if(ev.target===veu){fecharInd();}},false);
+  document.addEventListener('keydown',function(ev){if(ev.keyCode===27){fecharInd();}},false);
+
+  var links=document.querySelectorAll('#lista a, #bAbrir');
+  for(var i=0;i<links.length;i++){
+    links[i].addEventListener('click',function(ev){
+      var id=this.getAttribute('href').slice(1);
+      ev.preventDefault();
+      fecharInd();
+      window.setTimeout(function(){irPara(id);},30);
+    },false);
+  }
+  var bots=document.querySelectorAll('[data-go]');
+  for(var j=0;j<bots.length;j++){
+    bots[j].addEventListener('click',function(){irPara(this.getAttribute('data-go'));},false);
+  }
+
+  var itens=document.querySelectorAll('#lista a');
+  var atual=-2,ocupado=false,cont=$('cont');
+  function atualiza(){
+    ocupado=false;
+    var y=y0();
+    barra.className=(y>capa.offsetHeight-90)?'barra vis':'barra';
+    var h=barra.getBoundingClientRect().height||56;
+    var lim=y+h+40,idx=-1;
+    for(var k=1;k<=14;k++){
+      var s=$('b'+k);
+      if(s&&s.getBoundingClientRect().top+y<=lim){idx=k-1;}
+    }
+    if(idx!==atual){
+      atual=idx;
+      for(var n=0;n<itens.length;n++){itens[n].className=(n===idx)?'atual':'';}
+      if(idx>=0){guardar('folheto_pos','b'+(idx+1));}
+    }
+  }
+  function aoRolar(){
+    cont.className='cont';
+    if(!ocupado){ocupado=true;window.setTimeout(atualiza,80);}
+  }
+  window.addEventListener('scroll',aoRolar,false);
+  window.addEventListener('resize',atualiza,false);
+  atualiza();
+
+  var salvo=ler('folheto_pos');
+  if(salvo&&/^b([1-9]|1[0-4])$/.test(salvo)&&y0()<50){
+    cont.className='cont vis';
+    $('bCont').onclick=function(){cont.className='cont';irPara(salvo);};
+    $('bDisp').onclick=function(){cont.className='cont';tirar('folheto_pos');};
+  }
+  (function(){
+    var v=$('capaVid');
+    if(!v){return;}
+    function tira(){try{if(v.parentNode){v.parentNode.removeChild(v);}}catch(e){}}
+    var red=false,poupa=false;
+    try{red=!!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches);}catch(e){}
+    try{poupa=!!(navigator.connection&&navigator.connection.saveData);}catch(e){}
+    if(red||poupa){tira();return;}
+    v.muted=true;v.controls=false;
+    v.addEventListener('error',tira,false);
+    var ss=v.getElementsByTagName('source');if(ss.length){ss[0].addEventListener('error',tira,false);}
+    try{var p=v.play();if(p&&p.catch){p.catch(tira);}}catch(e){tira();}
+  })();
+})();
+
+
+</script>
+<script>
+(function(){
+  document.addEventListener('click',function(e){
+    var b=e.target;
+    while(b&&b!==document&&!(b.getAttribute&&b.getAttribute('data-tg'))){b=b.parentNode;}
+    if(!b||b===document)return;
+    var id=b.getAttribute('data-tg');
+    var el=document.getElementById(id);
+    if(!el)return;
+    var fechar=el.className.indexOf('fechada')<0;
+    el.className=fechar?'lt fechada':'lt';
+    var bs=document.querySelectorAll('[data-tg="'+id+'"]');
+    for(var k=0;k<bs.length;k++){
+      bs[k].setAttribute('aria-expanded',fechar?'false':'true');
+      bs[k].firstChild.nodeValue=fechar?'Mostrar letra':'Ocultar letra';
+    }
+    if(fechar){var li=el.parentNode;if(li&&li.scrollIntoView&&li.getBoundingClientRect().top<0){try{li.scrollIntoView();}catch(x){}}}
+  },false);
+})();
+</script>
+</body>
+</html>
